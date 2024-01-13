@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/blink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blink"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="160dp"/>
+    <Button
+        android:id="@+id/fade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="160dp"/>
+    <Button
+        android:id="@+id/move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="160dp"/>
+    <Button
+        android:id="@+id/slide_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sllide down"
+        android:padding="1dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="160dp"/>
+    <Button
+        android:id="@+id/slide_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide up"
+        android:padding="1dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="160dp"/>
+    <Button
+        android:id="@+id/zoom_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom in"
+        android:padding="1dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="160dp"/>
+
+
+
+</RelativeLayout>
